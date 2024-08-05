@@ -1,2 +1,2 @@
 # PomoC
-Pomodoro  desktop app for Linux.
+Pomodoro terminal app for Linux.
