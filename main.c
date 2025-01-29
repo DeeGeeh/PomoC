@@ -115,7 +115,9 @@ void updateTimeAnimation(Animation* animation, unsigned int timePassed, unsigned
         }
     }
 
-    printf("\r%s", animation->animationArr);
+    // Clear the current line and move cursor to start
+    printf("\033[2K\r");
+    printf("%s", animation->animationArr);
     fflush(stdout);
 }
 
